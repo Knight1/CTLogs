@@ -1,4 +1,4 @@
-# GoogleCTLogs
+# Certificate Transparency Logs
 
 ## Google
 
@@ -27,7 +27,6 @@ openssl dgst -sha256 -verify log_list_pubkey.pem -signature log_list.sig log_lis
 openssl dgst -sha256 -verify log_list_pubkey.pem -signature all_logs_list.sig all_logs_list.json
 ```
 
-
 ## Apple
 
 (https://valid.apple.com/ct/log_list/current_log_list.json)
@@ -35,7 +34,9 @@ openssl dgst -sha256 -verify log_list_pubkey.pem -signature all_logs_list.sig al
 
 ## Mozilla
 
-(https://hg.mozilla.org/mozilla-central/file/tip/security/ct/CTKnownLogs.h)
-(https://hg.mozilla.org/mozilla-central/raw-file/tip/security/ct/CTKnownLogs.h)
+(https://github.com/mozilla/gecko-dev/blob/master/taskcluster/docker/periodic-updates/scripts/getCTKnownLogs.py)
+(https://searchfox.org/mozilla-central/source/security/ct)
+(https://hg-edge.mozilla.org/mozilla-central/file/tip/security/ct/CTKnownLogs.h)
+(https://hg-edge.mozilla.org/mozilla-central/raw-file/tip/security/ct/CTKnownLogs.h)
 
 # Windows CTL
