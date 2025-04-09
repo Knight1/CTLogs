@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "51.51",
-  "log_list_timestamp": "2025-03-23T12:54:15Z",
+  "version": "53.6",
+  "log_list_timestamp": "2025-04-08T12:53:34Z",
   "operators": [
     {
       "name": "Google",
@@ -987,8 +987,8 @@
           "url": "https://nessie2025.ct.digicert.com/log/",
           "mmd": 86400,
           "state": {
-            "usable": {
-              "timestamp": "2022-11-01T18:54:00Z"
+            "retired": {
+              "timestamp": "2025-04-15T23:00:00Z"
             }
           },
           "temporal_interval": {
@@ -1035,8 +1035,8 @@
           "url": "https://wyvern.ct.digicert.com/2025h1/",
           "mmd": 86400,
           "state": {
-            "usable": {
-              "timestamp": "2024-08-29T03:09:43Z"
+            "retired": {
+              "timestamp": "2025-04-14T22:33:20Z"
             }
           },
           "temporal_interval": {
@@ -1131,8 +1131,8 @@
           "url": "https://sphinx.ct.digicert.com/2025h1/",
           "mmd": 86400,
           "state": {
-            "usable": {
-              "timestamp": "2024-08-29T03:09:43Z"
+            "retired": {
+              "timestamp": "2025-04-14T22:33:20Z"
             }
           },
           "temporal_interval": {
