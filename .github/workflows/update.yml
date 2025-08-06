@@ -1,0 +1,41 @@
+name: update
+on:
+  schedule:
+      - cron: '0 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: update
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run update
+        run: bash update.sh
+
+      - name: show git diff
+        run: git diff HEAD
+
+      - name: Exit early if no meaningful changes
+        run: |
+          git diff -I'"version":' -I'"log_list_timestamp":' -I'kCTExpirationTime' --quiet && exit 0 || echo "Changes found."
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          DATE=$(date -u "+%Y-%m-%d %H:%M:%S UTC")
+          git commit -m "Automated update: ${DATE}"
+
+      - name: Push changes
+        if: success()
+        run: |
+          git push origin HEAD:main
