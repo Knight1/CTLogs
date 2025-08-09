@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "63.4",
-  "log_list_timestamp": "2025-08-07T12:54:38Z",
+  "version": "63.6",
+  "log_list_timestamp": "2025-08-08T12:53:23Z",
   "operators": [
     {
       "name": "Google",
@@ -817,7 +817,93 @@
           }
         }
       ],
-      "tiled_logs": []
+      "tiled_logs": [
+        {
+          "description": "Cloudflare 'Raio2025h2b'",
+          "log_id": "Tw05u8NV28wWJ5ZuVAUVfMr3Lj90j0f+ewSeWlkVXL0=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESwiXfU4VWajxfFHaQDvR5OsrBY5lp+JW6AONks1wbPABXhaX0yi5+5zGw0oX1RbA6tB4RiP8V/I9i/ncLniJkQ==",
+          "submission_url": "https://ct.cloudflare.com/logs/raio2025h2b/",
+          "monitoring_url": "https://raio2025h2b.ct.cloudflare.com/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2025-08-06T20:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2025-07-01T00:00:00Z",
+            "end_exclusive": "2026-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Cloudflare 'Raio2026h1a'",
+          "log_id": "5bvNwMctaSvZWYo2AgQ86FTsb2D4AGZ4WWOIK3w4JDg=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEewKoi9UXxR2+or27gZXyqqjfC/K0d7YMSBuReaNIBVre8Fkf2IbIXu1JnPIdv2HW3WyOIV3BRAIFgstayoSLFQ==",
+          "submission_url": "https://ct.cloudflare.com/logs/raio2026h1a/",
+          "monitoring_url": "https://raio2026h1a.ct.cloudflare.com/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2025-08-06T20:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2026-01-01T00:00:00Z",
+            "end_exclusive": "2026-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Cloudflare 'Raio2026h2a'",
+          "log_id": "uuKpKTLFwF0fpU00gTDwm/yIMxZKFaH7vvUmKDJWyAs=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESrSp8+SLuFV5XKzPo6YS5C5qymHjSVFfioV0V8/5Ilhd+AfKuN2m/6d8EAc2VRDD1wGPNFtoYWNotvsqXynfnQ==",
+          "submission_url": "https://ct.cloudflare.com/logs/raio2026h2a/",
+          "monitoring_url": "https://raio2026h2a.ct.cloudflare.com/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2025-08-06T20:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Cloudflare 'Raio2027h1a'",
+          "log_id": "ijgQv0CPWs97dN4gwHGQO3F5yrDb12jv+hD2KY6gaAw=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUJRLaVR5ytKhoHiquDYDwthBdbgMmoa8vFG0vUw493g652rDV39r8v8NGKjsQ48OtiBiOSJCea0SX5YotzjpDA==",
+          "submission_url": "https://ct.cloudflare.com/logs/raio2027h1a/",
+          "monitoring_url": "https://raio2027h1a.ct.cloudflare.com/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2025-08-06T20:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          }
+        },
+        {
+          "description": "Cloudflare 'Raio2027h2a'",
+          "log_id": "Ia1IGvXLVPNLOr+uoP8Gmns8dm/DtpCHC7RrFS+2C/k=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi26evoGHBxrQAASnY/nsnI0ryBZVFJoffV/rpEtmMS1FPEPR+Yjr0fP4YMMHbvnZO/EKU4FYGAXmOihuSV18Uw==",
+          "submission_url": "https://ct.cloudflare.com/logs/raio2027h2a/",
+          "monitoring_url": "https://raio2027h2a.ct.cloudflare.com/",
+          "mmd": 60,
+          "state": {
+            "pending": {
+              "timestamp": "2025-08-06T20:00:00Z"
+            }
+          },
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          }
+        }
+      ]
     },
     {
       "name": "DigiCert",
