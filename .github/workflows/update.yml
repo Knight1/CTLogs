@@ -27,9 +27,10 @@ jobs:
 
       - name: Exit early if no meaningful changes
         run: |
-          git diff -I'"version":' -I'"log_list_timestamp":' -I'kCTExpirationTime' --quiet && exit 0 || echo "Changes found."
+          git diff -I'"version":' -I'"log_list_timestamp":' -I'kCTExpirationTime' -- ':(exclude)*.sig' --quiet && exit 0 || echo "Changes found."
 
       - name: Commit and push changes
+        if: success()
         run: |
           git add .
           DATE=$(date -u "+%Y-%m-%d %H:%M:%S UTC")
