@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "67.2",
-  "log_list_timestamp": "2025-09-17T12:52:57Z",
+  "version": "68.1",
+  "log_list_timestamp": "2025-09-18T14:11:34Z",
   "operators": [
     {
       "name": "Google",
@@ -2039,8 +2039,8 @@
           "url": "https://tiger2025h2.ct.sectigo.com/",
           "mmd": 86400,
           "state": {
-            "qualified": {
-              "timestamp": "2025-07-09T13:00:00Z"
+            "usable": {
+              "timestamp": "2025-09-18T23:00:00Z"
             }
           },
           "temporal_interval": {
@@ -2055,8 +2055,8 @@
           "url": "https://tiger2026h1.ct.sectigo.com/",
           "mmd": 86400,
           "state": {
-            "qualified": {
-              "timestamp": "2025-07-09T13:00:00Z"
+            "usable": {
+              "timestamp": "2025-09-18T23:00:00Z"
             }
           },
           "temporal_interval": {
@@ -2071,8 +2071,8 @@
           "url": "https://tiger2026h2.ct.sectigo.com/",
           "mmd": 86400,
           "state": {
-            "qualified": {
-              "timestamp": "2025-07-09T13:00:00Z"
+            "usable": {
+              "timestamp": "2025-09-18T23:00:00Z"
             }
           },
           "temporal_interval": {
@@ -2087,8 +2087,8 @@
           "url": "https://tiger2027h1.ct.sectigo.com/",
           "mmd": 86400,
           "state": {
-            "qualified": {
-              "timestamp": "2025-07-09T13:00:00Z"
+            "usable": {
+              "timestamp": "2025-09-18T23:00:00Z"
             }
           },
           "temporal_interval": {
@@ -2103,8 +2103,8 @@
           "url": "https://tiger2027h2.ct.sectigo.com/",
           "mmd": 86400,
           "state": {
-            "qualified": {
-              "timestamp": "2025-07-09T13:00:00Z"
+            "usable": {
+              "timestamp": "2025-09-18T23:00:00Z"
             }
           },
           "temporal_interval": {
