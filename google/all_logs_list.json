@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "69.1",
-  "log_list_timestamp": "2025-09-19T12:54:07Z",
+  "version": "69.3",
+  "log_list_timestamp": "2025-09-20T12:54:23Z",
   "operators": [
     {
       "name": "Google",
@@ -3397,6 +3397,71 @@
             "start_inclusive": "2027-07-01T00:00:00Z",
             "end_exclusive": "2028-01-01T00:00:00Z"
           }
+        },
+        {
+          "description": "Geomys Navigli2025h2",
+          "log_id": "5Pt3SiEkxYZAsYMvUKv63ISjiu1xke62aSI3ksv2KJE=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4i7AmqGoGHsorn/eyclTMjrAnM0JUUbyGJUxXqq1AjQ4qBC77wXkWt7s/HA8An2vrEBKIGQzqTjV8QIHrmpd4w==",
+          "submission_url": "https://navigli2025h2.sunlight.geomys.org/",
+          "monitoring_url": "https://navigli2025h2.skylight.geomys.org/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2025-07-01T00:00:00Z",
+            "end_exclusive": "2026-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Geomys Navigli2026h1",
+          "log_id": "gs3NR5535F0UrWkDiCxBE/yBwhITvsKz2U6dx82Azf4=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEh/xU5f2JBQfU/9jb1aUb06VChY/y+g9VCqiJ+rElEu81HMIj/1jvLzaXl/wYJFSVhtJhl4xeIMBOcltC/t7YTg==",
+          "submission_url": "https://navigli2026h1.sunlight.geomys.org/",
+          "monitoring_url": "https://navigli2026h1.skylight.geomys.org/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-01-01T00:00:00Z",
+            "end_exclusive": "2026-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Geomys Navigli2026h2",
+          "log_id": "JKaah8LdWC3VArJRfww4J/MLTqhKJBO1U+b78YzxX+8=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE35uLGxEy/DbYDRg6/078qvcc2D0GyS8Iu8xG1CU8Ab133mXVcYtUJL5XlKP8768znap35cwzLbQUgYsmBIOs3Q==",
+          "submission_url": "https://navigli2026h2.sunlight.geomys.org/",
+          "monitoring_url": "https://navigli2026h2.skylight.geomys.org/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2026-07-01T00:00:00Z",
+            "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Geomys Navigli2027h1",
+          "log_id": "2tZHUVKWGUn6T3McZw6F5eS3TgaIGWBT8Rha1ySUGtM=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhBvjicdGxE1X4PDDFXT08IUoMvHZ8716jPiw0F5xG+4Q7SO3La7uDlEeEzkek0ZlqAfKcrBg/Zp2noofn5/jAw==",
+          "submission_url": "https://navigli2027h1.sunlight.geomys.org/",
+          "monitoring_url": "https://navigli2027h1.skylight.geomys.org/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Geomys Navigli2027h2",
+          "log_id": "z14MRaO4fEHLthgI+OCQulvrTdMmwUBN/7at+Y4WaRY=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/X+10fVaeUuD/AambYvE2n40zMehkN2tM8NB+aYaUOYp6TWWWE7NCErYDehUQdiZ9vhMLR5X9zUWOPTm7PZVXQ==",
+          "submission_url": "https://navigli2027h2.sunlight.geomys.org/",
+          "monitoring_url": "https://navigli2027h2.skylight.geomys.org/",
+          "mmd": 60,
+          "temporal_interval": {
+            "start_inclusive": "2027-07-01T00:00:00Z",
+            "end_exclusive": "2028-01-01T00:00:00Z"
+          },
+          "log_type": "test"
         }
       ]
     },
