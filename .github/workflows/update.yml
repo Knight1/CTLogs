@@ -27,7 +27,7 @@ jobs:
 
       - name: Exit early if no meaningful changes
         run: |
-          git diff -I'"version":' -I'"log_list_timestamp":' -I'kCTExpirationTime' -- ':(exclude)*.sig' --quiet && echo "Changes found." || exit 0
+          git diff --exit-code -I'"version":' -I'"log_list_timestamp":' -I'kCTExpirationTime' -- ':(exclude)*.sig' && echo "Changes found." || exit 0
           git add .
           DATE=$(date -u "+%Y-%m-%d %H:%M:%S UTC")
           git commit -m "Automated update: ${DATE}"
