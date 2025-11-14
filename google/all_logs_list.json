@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "74.22",
-  "log_list_timestamp": "2025-11-11T12:53:09Z",
+  "version": "74.24",
+  "log_list_timestamp": "2025-11-13T12:53:59Z",
   "operators": [
     {
       "name": "Google",
@@ -628,6 +628,18 @@
           "temporal_interval": {
             "start_inclusive": "2026-07-01T00:00:00Z",
             "end_exclusive": "2027-01-01T00:00:00Z"
+          },
+          "log_type": "test"
+        },
+        {
+          "description": "Google 'Solera2027h1' log",
+          "log_id": "PeSSqJiTrXBeeEbtIdSNyvutE56mTtHjSfkAsKLNpeI=",
+          "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKLDCw61qHAIp9mt8+QBx92gqIAhp3QhqS6h+bogJAe/FwaCSxMyb2H5xAO2SArXJnzm5vdBGifOcS5SXRZMP9Q==",
+          "url": "https://ct.googleapis.com/logs/eu1/solera2027h1/",
+          "mmd": 86400,
+          "temporal_interval": {
+            "start_inclusive": "2027-01-01T00:00:00Z",
+            "end_exclusive": "2027-07-01T00:00:00Z"
           },
           "log_type": "test"
         }
