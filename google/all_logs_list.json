@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "79.1",
-  "log_list_timestamp": "2025-12-17T12:53:23Z",
+  "version": "79.3",
+  "log_list_timestamp": "2025-12-19T12:52:25Z",
   "operators": [
     {
       "name": "Google",
