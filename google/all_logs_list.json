@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "83.7",
-  "log_list_timestamp": "2026-02-04T12:53:13Z",
+  "version": "83.13",
+  "log_list_timestamp": "2026-02-11T12:53:15Z",
   "operators": [
     {
       "name": "Google",
@@ -865,8 +865,8 @@
           "monitoring_url": "https://raio2025h2b.ct.cloudflare.com/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2025-08-06T20:00:00Z"
+            "rejected": {
+              "timestamp": "2026-01-08T00:00:00Z"
             }
           },
           "temporal_interval": {
