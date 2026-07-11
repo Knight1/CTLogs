@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "88.0",
-  "log_list_timestamp": "2026-07-09T13:37:54Z",
+  "version": "88.1",
+  "log_list_timestamp": "2026-07-10T13:44:32Z",
   "operators": [
     {
       "name": "Google",
