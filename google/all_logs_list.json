@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "91.3",
-  "log_list_timestamp": "2026-09-12T13:38:59Z",
+  "version": "92.0",
+  "log_list_timestamp": "2026-09-22T13:42:43Z",
   "operators": [
     {
       "name": "Google",
@@ -2037,8 +2037,8 @@
           "monitoring_url": "https://eszigno2026h2.mon.ct.e-szigno.hu/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-20T20:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-22T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -2054,8 +2054,8 @@
           "monitoring_url": "https://eszigno2027h1.mon.ct.e-szigno.hu/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-20T20:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-22T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -2071,8 +2071,8 @@
           "monitoring_url": "https://eszigno2027h2.mon.ct.e-szigno.hu/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-20T20:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-22T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -2088,8 +2088,8 @@
           "monitoring_url": "https://eszigno2028h1.mon.ct.e-szigno.hu/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-20T20:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-22T13:45:00Z"
             }
           },
           "temporal_interval": {
@@ -2105,8 +2105,8 @@
           "monitoring_url": "https://eszigno2028h2.mon.ct.e-szigno.hu/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-20T20:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-22T13:45:00Z"
             }
           },
           "temporal_interval": {
