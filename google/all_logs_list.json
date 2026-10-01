@@ -1,7 +1,7 @@
 {
   "is_all_logs": true,
-  "version": "92.1",
-  "log_list_timestamp": "2026-09-23T13:36:59Z",
+  "version": "93.0",
+  "log_list_timestamp": "2026-09-30T13:36:09Z",
   "operators": [
     {
       "name": "Google",
@@ -2131,8 +2131,8 @@
           "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2026h2/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-26T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-30T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -2148,8 +2148,8 @@
           "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2027h1/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-26T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-30T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -2165,8 +2165,8 @@
           "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2027h2/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-26T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-30T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -2182,8 +2182,8 @@
           "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2028h1/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-26T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-30T13:40:00Z"
             }
           },
           "temporal_interval": {
@@ -2199,8 +2199,8 @@
           "monitoring_url": "https://ct-log-api.godaddy.com/aquamarine2028h2/",
           "mmd": 60,
           "state": {
-            "pending": {
-              "timestamp": "2026-08-26T17:30:00Z"
+            "qualified": {
+              "timestamp": "2026-09-30T13:40:00Z"
             }
           },
           "temporal_interval": {
